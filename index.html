@@ -252,8 +252,8 @@ footer{border-top:1px solid var(--rule); padding:2rem 0 3rem; color:var(--faint)
 
   <p>Weeks 1–3 compress the foundations — what a generative model is, VAEs, the diffusion core,
   flow matching and latent diffusion, CLIP and text-to-image. Everything after that is
-  <em>creation</em>: control and personalization, editing real images, video, avatars, 3D, and
-  world and action models.</p>
+  <em>creation</em>: controllable image generation, video, avatars, unified any-to-any models, 3D,
+  and world and action models.</p>
 
   <div class="showcase">
     <figure>
@@ -261,28 +261,28 @@ footer{border-top:1px solid var(--rule); padding:2rem 0 3rem; color:var(--faint)
         <img src="syllabus-media/web-image.jpg" alt="A grid of varied, highly detailed text-to-image samples spanning photography, illustration and typography">
         <span class="tag2">Still image</span>
       </div>
-      <figcaption><b>Weeks 1–6.</b> A sentence in, a finished picture out — then bent to the brief you were actually given.</figcaption>
+      <figcaption><b>Weeks 1–4.</b> A sentence in, a finished picture out — then bent to the brief you were actually given.</figcaption>
     </figure>
     <figure>
       <div class="m">
         <video src="syllabus-media/web-video.mp4" poster="syllabus-media/web-video-poster.jpg" autoplay loop muted playsinline preload="metadata"></video>
         <span class="tag2">Video</span>
       </div>
-      <figcaption><b>Weeks 8–9.</b> The picture gets a time axis — and a camera, a performance, a face that stays the same face.</figcaption>
+      <figcaption><b>Weeks 5–6.</b> The picture gets a time axis — and a camera, a performance, a face that stays the same face.</figcaption>
     </figure>
     <figure>
       <div class="m">
         <video src="syllabus-media/web-space.mp4" poster="syllabus-media/web-space-poster.jpg" autoplay loop muted playsinline preload="metadata"></video>
         <span class="tag2">3D</span>
       </div>
-      <figcaption><b>Week 10.</b> Assets that have a back — geometry and texture.</figcaption>
+      <figcaption><b>Week 9.</b> Assets that have a back — geometry and texture.</figcaption>
     </figure>
     <figure>
       <div class="m">
         <video src="syllabus-media/web-world.mp4" poster="syllabus-media/web-world-poster.jpg" autoplay loop muted playsinline preload="metadata"></video>
         <span class="tag2">Worlds</span>
       </div>
-      <figcaption><b>Weeks 11–12.</b> Not a clip — a place, generated frame by frame in response to the keys you press.</figcaption>
+      <figcaption><b>Weeks 10–11.</b> Not a clip — a place, generated frame by frame in response to the keys you press.</figcaption>
     </figure>
   </div>
   <p class="credits">FLUX.1 release grid, Black Forest Labs 2024 · <em>Veo 3</em> showcase clip, Google
@@ -297,12 +297,16 @@ footer{border-top:1px solid var(--rule); padding:2rem 0 3rem; color:var(--faint)
 </section>
 
 <section id="calendar">
-  <h2>Calendar</h2>
+  <h2>Calendar <span class="tag">Tentative</span></h2>
   <p class="sub">27 meetings</p>
 
   <p><strong>Monday is the lecture. Wednesday is student paper presentations</strong> — except in
-  the first three weeks, where the compressed foundations run on both days, and in the two project
-  weeks, where both days are yours.</p>
+  the first three weeks, where the compressed foundations run on both days; in the two project
+  weeks, where both days are yours; and on <strong>30 November</strong>, where there is no lecture
+  and both days are presentations.</p>
+
+  <p>The presentation sessions run <strong>one Wednesday behind the lecture they follow</strong>, so
+  you always have a week with the material before you have to argue about the papers around it.</p>
 
   <div class="tablewrap">
   <table>
@@ -311,17 +315,17 @@ footer{border-top:1px solid var(--rule); padding:2rem 0 3rem; color:var(--faint)
       <tr><td>31 Aug</td><td>L1 · Introduction — the course, the format, the project</td><td>L2 · What a generative model is · GANs · evaluation</td></tr>
       <tr><td>7 Sep</td><td>L3 · Variational Autoencoders</td><td>L4 · Diffusion core — DDPM, DDIM, classifier-free guidance</td></tr>
       <tr><td>14 Sep</td><td>L5 · Flow matching, latent diffusion &amp; the DiT backbone</td><td>L6 · CLIP, text-to-image &amp; preference tuning</td></tr>
-      <tr><td>21 Sep</td><td>L7 · Omnimodels — unified any-to-any generation</td><td class="pres">Presentations — Omnimodels</td></tr>
-      <tr><td>28 Sep</td><td>L8 · Control &amp; Personalization</td><td class="pres">Presentations — Control &amp; Personalization</td></tr>
-      <tr><td>5 Oct</td><td class="no">No class — holiday</td><td class="pres">Presentations — Foundations pool</td></tr>
+      <tr><td>21 Sep</td><td>L7 · Controllable image generation</td><td class="pres">Presentations — Foundations pool</td></tr>
+      <tr><td>28 Sep</td><td>L8 · Video Generation</td><td class="pres">Presentations — Controllable image generation</td></tr>
+      <tr><td>5 Oct</td><td class="no">No class — holiday</td><td class="pres">Presentations — Controllable image generation (2)</td></tr>
       <tr><td>12 Oct</td><td class="no">No class — midterm period</td><td class="no">No class — midterm period</td></tr>
-      <tr><td>19 Oct</td><td>L9 · Editing &amp; Finishing a Real Image</td><td class="pres">Presentations — Editing</td></tr>
+      <tr><td>19 Oct</td><td>L9 · Controllable Video &amp; Avatars</td><td class="pres">Presentations — Video Generation</td></tr>
       <tr><td>26 Oct</td><td>Project proposals — batch 1</td><td>Project proposals — batch 2</td></tr>
-      <tr><td>2 Nov</td><td>L10 · Video Generation</td><td class="pres">Presentations — Video</td></tr>
-      <tr><td>9 Nov</td><td>L11 · Controllable Video &amp; Avatars</td><td class="pres">Presentations — Controllable Video</td></tr>
-      <tr><td>16 Nov</td><td>L12 · 3D Content Creation</td><td class="pres">Presentations — 3D</td></tr>
-      <tr><td>23 Nov</td><td>L13 · World Models &amp; Playable Worlds</td><td class="pres">Presentations — World Models</td></tr>
-      <tr><td>30 Nov</td><td>L14 · World &amp; Action Models</td><td class="pres">Presentations — World &amp; Action Models</td></tr>
+      <tr><td>2 Nov</td><td>L10 · Omnimodels — unified any-to-any generation</td><td class="pres">Presentations — Controllable Video &amp; Avatars</td></tr>
+      <tr><td>9 Nov</td><td>L11 · 3D Content Creation</td><td class="pres">Presentations — Omnimodels</td></tr>
+      <tr><td>16 Nov</td><td>L12 · World Models &amp; Playable Worlds</td><td class="pres">Presentations — 3D</td></tr>
+      <tr><td>23 Nov</td><td>L13 · World &amp; Action Models</td><td class="pres">Presentations — World Models</td></tr>
+      <tr><td>30 Nov</td><td class="pres">Presentations — World Models 2</td><td class="pres">Presentations — World &amp; Action Models</td></tr>
       <tr><td>7 Dec</td><td>Final presentations — batch 1</td><td>Final presentations — batch 2 + wrap-up <span class="wt">· final report due</span></td></tr>
     </tbody>
   </table>
@@ -332,14 +336,15 @@ footer{border-top:1px solid var(--rule); padding:2rem 0 3rem; color:var(--faint)
   <h2>Paper presentation</h2>
   <p class="sub">You choose what you present</p>
 
-  <p>Each week carries a <strong>pool of about ten papers</strong>, published in advance. You may
-  present a paper from that pool, or <strong>bring one of your own</strong> that matches the week's
-  theme.</p>
+  <p>Each topic carries a <strong>pool of at least ten papers</strong>, published in advance. You may
+  present a paper from that pool, or <strong>bring one of your own</strong> that matches the topic.
+  There are <strong>eight pools across ten presentation sessions</strong> — the controllable-image
+  pool covers two sessions, and 30 November is a second pass over the world-model literature.</p>
 
   <div class="callout">
     <span class="lbl">What this means for you</span>
     <p>You will present <strong>three papers</strong> across the term — or <strong>two</strong>, if
-    enrolment is large enough that the Wednesday slots fill up. Each presentation runs
+    enrolment is large enough that the slots fill up. Each presentation runs
     15–20 minutes — roughly 10–15 minutes of presentation plus 5 minutes of
     discussion. <span class="tent">The number is fixed in week 1, once enrolment settles.</span></p>
   </div>
